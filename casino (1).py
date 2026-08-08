@@ -112,7 +112,7 @@ BOT_NAME = "Casino Royals"
 # the requested single-file default.
 BOT_TOKEN = os.getenv(
     "TELEGRAM_BOT_TOKEN",
-    "8307026945:AAGEwptqpHWeyekQ9a3lMZwLx5Xdhc9tYEM",
+    "8697757275:AAGNg-qLshDhAr2ikp-VF33EYBHlvfuO4CA",
 ).strip()
 DATABASE_PATH = os.getenv("BOT_DATABASE_PATH", "group_dice_royale.db").strip()
 REQUIRED_CHAT_INVITE_LINK = "https://t.me/+qtXzPr9VyzIzMWZl"
@@ -125,7 +125,7 @@ LOGS_CHANNEL_ID = -1004476890059
 # addresses; from then on every wallet is managed from the admin panel.
 LEGACY_USDT_BEP20_ADDRESS = "0x34ac4B847a152Ff6141C817c3A040d3384FB0c76"
 LEGACY_USDT_TRC20_ADDRESS = "TEmiYJMMNC4mkhKznWh4AiEWGBZm3Efqyq"
-DEFAULT_ADMIN_IDS = {7984167671}
+DEFAULT_ADMIN_IDS = {7743406267}
 _admin_override = os.getenv("BOT_ADMIN_IDS", "").strip()
 if _admin_override:
     try:
